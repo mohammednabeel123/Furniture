@@ -1,0 +1,66 @@
+.top-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none; 
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    font-size: 14px;
+    justify-content: space-evenly;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+li{
+    justify-content: space-around;
+    margin-right: 30px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color: blue;
+}
+.Futuhouse{
+    font-weight: bold;
+}
+.button-link{
+    border-radius: 15px;
+    padding: 5px 10px;
+    border-width: 1px;
+}
+
+.memo{
+    margin-top: 65px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+.interior{
+    font-size: 11px;
+    font-weight: bold;
+}
+p{
+    font-size: 40px;
+}
+.Get{
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-width: 1px;
+    cursor: pointer;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.images-fur,.images-fur2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.images-fur2{
+    margin-bottom: 20px;
+}
